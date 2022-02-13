@@ -27,7 +27,7 @@ body {
     width: 100%;
     text-decoration: none;
     color: #454647;
-    grid-template-columns: 8fr 2fr 1.5fr 1fr;
+    grid-template-columns: 2fr 6fr 1.25fr 1.25fr 1fr;
 }
 
 .navbar-buttons {
@@ -45,11 +45,13 @@ body {
 .navbar-logo {
     padding: 14px 16px;
     text-decoration: none;
+
 }
 
 .navbar-logo a {
     text-decoration: none;
 }
+
 
 .navbar-logo-text {
     margin-top: -1.55em;
@@ -57,6 +59,10 @@ body {
     text-decoration: none;
     font-size: 1.2em;
     color: #454647
+}
+
+.navbar-logo-text:hover{
+    color: #d31fca;
 }
 
 .main-container {
@@ -89,6 +95,7 @@ body {
     margin-top: -2em;
     text-align: center;
     color: #f8f8f8;
+    pointer-events: none;
 }
 
 .about-container {
