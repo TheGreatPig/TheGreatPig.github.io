@@ -27,7 +27,7 @@ body {
     width: 100%;
     text-decoration: none;
     color: #454647;
-    grid-template-columns: 2fr 6fr 1.25fr 1.25fr 1fr;
+    grid-template-columns: 10em 6fr 7em 7em 6em;
 }
 
 .navbar-buttons {
