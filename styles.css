@@ -21,6 +21,9 @@ body {
 .navbar {
     display: grid;
     background-color: #ffffff;
+    outline-width: 1px;
+    outline-color: #707070;
+    outline-style: solid;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -70,6 +73,11 @@ body {
     margin-top: 50px;
 }
 
+.main-container a {
+    text-decoration: none;
+    color: #707070;
+}
+
 .name-container {
     display: grid;
     width: 100%;
@@ -88,6 +96,7 @@ body {
     align-items: center;
     letter-spacing: -0.1em;
 }
+
 .name-text {
     font-size: 2em;
     font-family: monospace;
@@ -99,39 +108,49 @@ body {
 }
 
 .about-container {
-    display: grid;
-    width: 100%;
-    padding-bottom: 25%;
-    background-color: #ffffff;
     color: #8f8f8f;
+    background-color: #ffffff;
+    display: grid;
     grid-template-columns: auto;
+    width: 100%;
+    padding-top: 3em;
+    padding-bottom: 10em;
 }
 
 .about-heading {
-    margin: 1em;
     font-family: SourceSansPro-Black, sans-serif;
     font-size: 2.5em;
+    text-align: center;
+    margin-left: -7em;
 }
+
 .about-text {
-    margin: 1em;
     font-size: 2em;
+    max-width: 20em;
+    margin: 1em auto;
 }
 
 .my-stuff-container {
+    background-color: #707070;
     display: grid;
-    width: 100%;
-    padding-bottom: 25%;
-    background-color: #8f8f8f;
-    color: #ffffff;
     grid-template-columns: auto;
+    width: 100%;
+    padding-top: 3em;
+    padding-bottom: 10em;
 }
 
 .my-stuff-heading {
-    margin: 1em;
     font-family: SourceSansPro-Black, sans-serif;
     font-size: 2.5em;
+    text-align: center;
+    margin-left: -8.35em;
+
 }
+
 .my-stuff-text {
-    margin: 1em;
     font-size: 2em;
+    max-width: 20em;
+    margin: 1em auto;
+
+    
 }

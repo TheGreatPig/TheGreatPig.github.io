@@ -1,4 +1,4 @@
-function scrollTo(whereToScroll) {
+function scrollToPoint(whereToScroll) {
     window.scroll({
         top: whereToScroll,
         left: 0, 
