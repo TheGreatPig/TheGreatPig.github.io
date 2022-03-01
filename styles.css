@@ -18,7 +18,7 @@ body {
     font-family: SourceSansPro, helvetica, arial, sans serif;
     margin: 0;
 }
-.navbar {
+.navbar-container {
     display: grid;
     background-color: #ffffff;
     outline-width: 1px;
@@ -48,7 +48,6 @@ body {
 .navbar-logo {
     padding: 14px 16px;
     text-decoration: none;
-
 }
 
 .navbar-logo a {
@@ -61,7 +60,7 @@ body {
     margin-left: 1em;
     text-decoration: none;
     font-size: 1.2em;
-    color: #454647
+    color: #454647;
 }
 
 .navbar-logo-text:hover{
@@ -85,7 +84,6 @@ body {
     padding-bottom: 30em;
     background-color: #707070;
     grid-template-columns: auto;
-    
 }
 
 .name-heading {
@@ -144,13 +142,41 @@ body {
     font-size: 2.5em;
     text-align: center;
     margin-left: -8.35em;
-
 }
 
 .my-stuff-text {
     font-size: 2em;
     max-width: 20em;
-    margin: 1em auto;
+    margin: 1em auto;    
+}
 
-    
+.footer-container {
+    display: grid;
+    grid-template-columns: 10em 10em 10em 10em;
+    background-color: #454647;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 0.7em;
+}
+
+.footer-container img {
+    max-width: 3em;
+    height: auto;
+}
+
+.footer-github {
+    text-align: center;
+}
+
+.footer-twitter {
+    text-align: center;
+}
+
+.footer-youtube {
+    text-align: center;
+}
+
+.footer-email {
+    text-align: center;
 }
