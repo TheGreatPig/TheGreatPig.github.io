@@ -1,5 +1,5 @@
 Hi!  
-This is the repository I use for my personal Website [TheGreatPig.github.io](TheGreatPig.github.io).  
+This is the repository I use for my personal website [TheGreatPig.github.io](TheGreatPig.github.io).  
 Feel free to take a look at the source code, although it might be a bit messy.  
 
 ## License  
