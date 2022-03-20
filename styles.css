@@ -21,9 +21,12 @@ body {
 .navbar-container {
     display: grid;
     background-color: #ffffff;
+    box-shadow: 0 0 1em 2px #454647;
+    /*
     outline-width: 1px;
     outline-color: #707070;
     outline-style: solid;
+    */
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -144,11 +147,47 @@ body {
     margin-left: -8.35em;
 }
 
-.my-stuff-text {
-    font-size: 2em;
-    max-width: 20em;
-    margin: 1em auto;    
+.my-stuff-grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 10em;
+    margin-right: 10em;
 }
+
+.my-stuff-grid-row {
+    display: flex;
+    flex: 0 50%;
+    border-radius: 6px;
+    width: 480px;
+    height: 360px;
+    background-color: #8f8f8f;
+    margin-bottom: 1.5em;
+}
+
+.my-stuff-grid-image {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    width: 480px;
+    height: 270px;
+}
+
+.my-stuff-grid-text-heading {
+    position: absolute;
+    margin-top: 275px;
+    margin-left: 10px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.my-stuff-grid-text-subheading {
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 10px;
+    font-size: 17px;
+    max-width: 460px;
+    overflow: hidden;
+}
+
 
 .footer-container {
     display: grid;
